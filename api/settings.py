@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'xxjbfhm53dq3qouy4#cqm#jbv#c-4#xtc*ml#(pus4bw$a0sy^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'rest_api_tdd_postgres_db',
-        'USER': 'tariana',
-        'PASSWORD': 'wil456u2',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '5432', 
     },
