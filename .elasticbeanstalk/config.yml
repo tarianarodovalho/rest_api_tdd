@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: RestApiTdd-env
+  master:
+    environment: rest-api-tdd-dev2
 environment-defaults:
   RestApiTdd-env:
     branch: null

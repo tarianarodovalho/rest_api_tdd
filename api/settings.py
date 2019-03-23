@@ -25,7 +25,7 @@ SECRET_KEY = 'xxjbfhm53dq3qouy4#cqm#jbv#c-4#xtc*ml#(pus4bw$a0sy^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rest-api-tdd-dev2.sa-east-1.elasticbeanstalk.com']
 
 
 # Application definition
