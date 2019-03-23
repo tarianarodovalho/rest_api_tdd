@@ -80,10 +80,10 @@ if 'RDS_DB_NAME' in os.environ:
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
             'NAME': os.environ['RDS_DB_NAME'],
-            'USER': os.environ['RDS_USERNAME'],
-            'PASSWORD': os.environ['RDS_PASSWORD'],
-            'HOST': os.environ['RDS_HOSTNAME'],
-            'PORT': os.environ['RDS_PORT'],
+            'USER': os.environ['tariana'],
+            'PASSWORD': os.environ['wil456u2'],
+            'HOST': os.environ['https://sa-east-1.console.aws.amazon.com/rds/home?region=sa-east-1#dbinstances:id=aa1j6v54tw0tqzq'],
+            'PORT': os.environ['5432'],
         }
     }
 else:
